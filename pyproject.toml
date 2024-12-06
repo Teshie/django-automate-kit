@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "django_automate_kit"
+version = "1.0.0"
+description = "Django Automate Kit"
+authors = ["abelayalew <abelayalew81@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+homepage = "https://github.com/abelayalew/django-automate-kit"
+repository = "https://github.com/abelayalew/django-automate-kit"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+graphene-django = "^3.2.0"
+graphene-file-upload = "^1.3.0"
+Django = "^5.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
